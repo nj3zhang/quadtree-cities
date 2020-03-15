@@ -4,8 +4,8 @@ Implemented a quad tree in C++ to store various cities by their x,y coordinates 
 Makefile included to compile on linux. Run 'Make' to create an excecutable.
 
 Commands:
-      insert: i city_info
-      search: s x;y
+      insert: `i *city_info*`
+      search: `s *x;y*`
       maximum value of attribute start at node xy in direction specified: q_max x;y;d;attr
       minimum value of attribute start at node xy in direction specified: q_min x;y;d;attr
       total value of attribute start at node xy in direction specified: q_total x;y;d;attr
